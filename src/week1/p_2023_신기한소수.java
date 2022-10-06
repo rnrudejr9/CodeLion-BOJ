@@ -6,7 +6,8 @@ import java.io.InputStreamReader;
 
 public class p_2023_신기한소수 {
 
-
+//답은 나오는데 ,, 메모리 초과의 이유를 모르겠음
+//    메모리를 줄이는 방향이 궁금함
     public static void main(String[] args) throws IOException {
         BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
 
@@ -18,8 +19,8 @@ public class p_2023_신기한소수 {
             check(n[std]);
             n[std]++;
         }
-
     }
+
     public static void check(int num){
         String[] s = Integer.toString(num).split("");
         String temp = "";
