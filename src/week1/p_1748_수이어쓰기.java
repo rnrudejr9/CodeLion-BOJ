@@ -1,3 +1,5 @@
+package week1;
+
 import java.util.Scanner;
 
 public class p_1748_수이어쓰기 {
