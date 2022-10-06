@@ -1,0 +1,13 @@
+ public void dfs(){
+        if(root == null)
+            return;
+        visit(root);
+        root.visited = true;
+
+        for each(Node n in root.adjacent){
+            if( n.visited == false ){
+                dfs(n);
+            }
+        }
+    }
+
