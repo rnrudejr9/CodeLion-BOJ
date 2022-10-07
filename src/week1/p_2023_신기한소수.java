@@ -8,6 +8,8 @@ public class p_2023_신기한소수 {
 
 //답은 나오는데 ,, 메모리 초과의 이유를 모르겠음
 //    메모리를 줄이는 방향이 궁금함
+    static StringBuilder temp;
+    static String[] s;
     public static void main(String[] args) throws IOException {
         BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
 
@@ -20,13 +22,16 @@ public class p_2023_신기한소수 {
             n[std]++;
         }
     }
+//   stringbudlder
+//    배열에 숫자를 그렇게 넣을 필요가 없다.
+//    판별이 끝나면 그수를 출력하면된다.
 
     public static void check(int num){
-        String[] s = Integer.toString(num).split("");
-        String temp = "";
+        s = Integer.toString(num).split("");
+        temp = new StringBuilder();
         for(int i=0;i<s.length;i++){
-            temp += s[i];
-            if(!make_prime(Integer.parseInt(temp))){
+            temp.append(s[i]);
+            if(!make_prime(Integer.parseInt(temp.toString()))){
                 return;
             }
         }
