@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
+//최대값 * 최소값으로 제일 최소값을 구함
+
 public class p_1026_보물_성공 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
