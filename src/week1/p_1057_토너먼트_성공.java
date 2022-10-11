@@ -2,7 +2,7 @@ package week1;
 
 import java.util.Scanner;
 
-public class p_1057_토너먼트 {
+public class p_1057_토너먼트_성공 {
    static int cnt;
    static int n;
     public static void main(String[] args) {

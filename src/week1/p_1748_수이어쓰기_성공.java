@@ -2,7 +2,7 @@ package week1;
 
 import java.util.Scanner;
 
-public class p_1748_수이어쓰기 {
+public class p_1748_수이어쓰기_성공 {
 //    규칙이
 //    1~9 = 1*9
 //    10~99 = 2*90
