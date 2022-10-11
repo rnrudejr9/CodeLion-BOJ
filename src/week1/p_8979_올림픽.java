@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//무식하게 비교하는 방법
+//
+
 class Nation implements Comparable<Nation> {
     public int name;
     public int gold;

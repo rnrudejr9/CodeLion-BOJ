@@ -1,7 +1,6 @@
 package week1;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class p_2108_통계학 {
     public static void main(String[] args) {
@@ -15,11 +14,25 @@ public class p_2108_통계학 {
         mid(arr);
         bin(arr);
         range(arr);
-
     }
     //범위를 포멧해서 최빈값을 구한뒤에
     // 다시 그 범위에 맞는 해당값들을 출력
     public static void bin(int [] arr){
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for(int i =0;i<arr.length;i++){
+            if(map.get(arr[i]) != 0){
+                map.put(arr[i],map.get(arr[i]) + 1);
+            }else {
+                map.put(arr[i], 1);
+            }
+        }
+
+        List<Integer> ketS = new ArrayList<>(map.keySet());
+        Collections.sort(ketS);
+        for(Integer i : ketS){
+
+        }
+        //return map.get()
 
     }
     public static void range(int [] arr){
