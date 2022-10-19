@@ -4,9 +4,12 @@ package week2;
 import java.util.Scanner;
 
 //접근법
-//최대값이 나오려면 각 배열 별로 가장 큰수부터 큰 값을 가지고 있으면 된다.
+// 최대값이 나오려면 각 배열 별로 가장 큰수부터 큰 값을 가지고 있으면 된다.
+// 자릿수가 같고 더 많은 것을 체킹 =>
+//반례
 
 
+//가중치로 풀었다. -> 9~0 까지의 숫자들 정리 (Map, 또는 배열 사용)
 public class p_1339_단어수학 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

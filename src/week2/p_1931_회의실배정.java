@@ -3,6 +3,7 @@ package week2;
 import java.util.*;
 
 //가장 짧은 시간의 대역을 선택한다
+
 class Ref implements Comparable<Ref> {
     int start;
     int end;
@@ -16,6 +17,8 @@ class Ref implements Comparable<Ref> {
         return this.start-o.start;
     }
 }
+
+
 public class p_1931_회의실배정 {
     static ArrayList<Ref> list = new ArrayList<>();
     public static void main(String[] args) {

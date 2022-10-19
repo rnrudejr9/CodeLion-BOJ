@@ -5,7 +5,7 @@ import java.util.Scanner;
 //
 //접근법
 //투포인터로 찾는다
-//값 변경 감지
+//값 변경 감지 방법 ->
 
 //소스를 좀더 간결하게 할 수 없을까?
 
@@ -30,7 +30,6 @@ public class p_15565_귀여운라이언_성공 {
         }
 
         while(end != arr.length){
-
             if(check < k){
                 if(st == arr.length-1){
                     break;
@@ -49,7 +48,6 @@ public class p_15565_귀여운라이언_성공 {
                     flag = 1;
                 }
                 end++;
-
                 check -= flag;
             }
         }
