@@ -33,9 +33,6 @@ public class p_2303_숫자게임 {
             calc(0,i);
         }
 
-        for(int i = 0; )
-        System.out.println(flag+1);
-
     }
 
     public static void calc(int index,int f){
