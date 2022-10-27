@@ -4,14 +4,13 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
-import java.util.Scanner;
 
 //한줄씩 입력 받아서 Map 에 Key, value로 저장
 //값 출력할때 입력받은 값이 정수인지 문자열인지 판별하는 논리
 //1차수정 : 시간초과 아무래도 찾는과정에서 선형시간이 좀 걸릴것으로 판단
 // * map 두개를 선언해서 시간 단축시도
 
-public class p_1620_나는야포켓몬마스터이다솜 {
+public class p_1620_나는야포켓몬마스터이다솜_성공 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

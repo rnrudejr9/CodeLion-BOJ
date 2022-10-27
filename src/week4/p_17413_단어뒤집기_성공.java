@@ -10,7 +10,7 @@ package week4;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class p_17413_단어뒤집기 {
+public class p_17413_단어뒤집기_성공 {
     static Stack<Character> st = new Stack<>();
 
     public static void main(String[] args) {
