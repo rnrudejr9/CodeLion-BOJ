@@ -32,7 +32,6 @@ public class p_14225_부분수열합_성공 {
         }
         int cnt = 1;
         for(Integer key : map.keySet()){
-
             if(cnt != key){
                 System.out.println(cnt);
                 System.exit(0);

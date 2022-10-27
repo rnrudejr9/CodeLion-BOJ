@@ -40,10 +40,8 @@ public class p_16943_숫자재배치_성공 {
         if(index == arr.length){
             String temp = new String();
             for(int x : now){
-
                 temp = temp+x;
             }
-
             if(Integer.parseInt(temp) < m && temp.charAt(0) != 48){
                 //0 의 아스키코드
                 if(res < Integer.parseInt(temp)){
