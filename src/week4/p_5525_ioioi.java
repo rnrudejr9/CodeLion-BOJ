@@ -9,6 +9,8 @@ import java.io.InputStreamReader;
 
 //스트링빌더의 이퀄은 오버라이딩하지않아 주소값으로 비교함
 
+//KMP 방식으로 반복되는 것을 얼마나 넘어 갈 것인가?
+
 public class p_5525_ioioi {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

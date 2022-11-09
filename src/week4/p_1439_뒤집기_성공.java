@@ -9,8 +9,6 @@ import java.util.Scanner;
 
 //0 구간 카운트 1구간 카운트 해서 구간이 작은 값을 출력하면 해결
 
-
-
 public class p_1439_뒤집기_성공 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
