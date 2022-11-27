@@ -19,6 +19,9 @@ public class p_1로만들기 {
     }
 
     public static int calc(int n){
+        if(n == 1){
+            return 0;
+        }
         if(dp[n] == 0) {
             if (n % 6 == 0) {
                 dp[n] = Math.min(calc(n-1), Math.min(calc(n / 3), calc(n / 2))) + 1;

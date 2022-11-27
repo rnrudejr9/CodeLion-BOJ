@@ -1,7 +1,10 @@
 package week7;
 
 import java.util.Scanner;
-public class Main {
+//Integer 배열 사용 -> null 값 사용 위한
+//100000 이상 입력시 스택오버플로 문제발생 -> 컴파일러 설정
+//기존 소스사용시 dp[2] dp[3] 접근하면 에러 -> 초기화로 문제해결
+public class p_1로만들기풀이 {
 
     static Integer[] dp;
 
