@@ -2,7 +2,7 @@ package week9;
 
 import java.util.Scanner;
 
-public class p_피보나치 {
+public class p_피보나치_성공 {
     static long[] dp;
     public static void main(String[] args) {
 
