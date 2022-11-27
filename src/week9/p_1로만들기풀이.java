@@ -1,4 +1,4 @@
-package week7;
+package week9;
 
 import java.util.Scanner;
 //Integer 배열 사용 -> null 값 사용 위한
